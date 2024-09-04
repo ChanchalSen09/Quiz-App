@@ -31,17 +31,17 @@ const Home = () => {
                 </div>
                 <div className="flex flex-wrap justify-center gap-4 px-4 mb-8 md:px-0">
                     <img
-                        src="src/assets/MicroScop.png"
+                        src="./src/assets/MicroScop.png"
                         alt="Quiz Image 1"
                         className="object-cover w-24 h-24 rounded-lg shadow-md md:w-32 md:h-32"
                     />
                     <img
-                        src="src/assets/Map.png"
+                        src="./src/assets/Map.png"
                         alt="Quiz Image 2"
                         className="object-cover w-24 h-24 rounded-lg shadow-md md:w-32 md:h-32"
                     />
                     <img
-                        src="src/assets/Book.png"
+                        src="./src/assets/Book.png"
                         alt="Quiz Image 3"
                         className="object-cover w-24 h-24 rounded-lg shadow-md md:w-32 md:h-32"
                     />
@@ -92,6 +92,7 @@ const Home = () => {
                             Keep an eye out for surprises that will elevate your experience to the next level!
                         </p>
                     )}
+
                     <p className="text-base text-gray-500">
                         Your adventure with our app is about to get even more interesting. Thanks for being with us!
                     </p>
