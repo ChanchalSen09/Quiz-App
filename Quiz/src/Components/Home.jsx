@@ -92,6 +92,9 @@ const Home = () => {
                             Keep an eye out for surprises that will elevate your experience to the next level!
                         </p>
                     )}
+                    <p className="text-base text-gray-500">
+                        Your adventure with our app is about to get even more interesting. Thanks for being with us!
+                    </p>
                 </section>
             </main>
 
