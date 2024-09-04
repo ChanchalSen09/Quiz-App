@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-wrap justify-center gap-4 px-4 mb-8 md:px-0">
                     <img
-                        src="https://i.pinimg.com/736x/98/c2/26/98c22632f37758b49a294ddb7a10ad56.jpg"
+                        src="https://i.pinimg.com/originals/98/c2/26/98c22632f37758b49a294ddb7a10ad56.png"
                         alt="MicroScop"
                         className="object-cover w-24 h-24 rounded-lg shadow-md md:w-32 md:h-32"
                     />
