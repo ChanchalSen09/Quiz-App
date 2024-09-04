@@ -5,8 +5,14 @@ const authRoutes = require("./routes/auth");
 require("dotenv").config();
 
 const app = express();
+const coreConfig = {
+                origin : "*",
+                credential : true,
+                methods : ["GET","POST","PUT","DELETE"], };
+ app.options("",cors(coreConfig));
 
-app.use(cors());
+
+app.use(cors(coreConfig));
 app.use(express.json());
 
 mongoose
