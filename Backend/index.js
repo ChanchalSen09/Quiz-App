@@ -5,22 +5,26 @@ const authRoutes = require("./routes/auth");
 require("dotenv").config();
 
 const app = express();
-const coreConfig = {
-                origin : "*",
-                credential : true,
-                methods : ["GET","POST","PUT","DELETE"], };
- app.options("",cors(coreConfig));
 
+const corsConfig = {
+    origin: "*",
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+};
 
-app.use(cors(coreConfig));
-app.use(express.json());
+app.use(cors(corsConfig)); 
+app.use(express.json()); 
 
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect(process.env.MONGODB_URI, {
+      useNewUrlParser: true, 
+      useUnifiedTopology: true,
+  })
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
 app.use("/api/auth", authRoutes);
+
 app.get('*', (req, res) => {
   res.send('Welcome to the Quiz App Backend!');
 });
@@ -34,4 +38,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
