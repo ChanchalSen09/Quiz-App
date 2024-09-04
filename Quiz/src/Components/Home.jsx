@@ -31,18 +31,18 @@ const Home = () => {
                 </div>
                 <div className="flex flex-wrap justify-center gap-4 px-4 mb-8 md:px-0">
                     <img
-                        src="./src/assets/MicroScop.png"
-                        alt="Quiz Image 1"
+                        src=".\src\assets\MicroScop.png"
+                        alt="MicroScop"
                         className="object-cover w-24 h-24 rounded-lg shadow-md md:w-32 md:h-32"
                     />
                     <img
-                        src="./src/assets/Map.png"
-                        alt="Quiz Image 2"
+                        src=".\src\assets\Map.png"
+                        alt="Map"
                         className="object-cover w-24 h-24 rounded-lg shadow-md md:w-32 md:h-32"
                     />
                     <img
-                        src="./src/assets/Book.png"
-                        alt="Quiz Image 3"
+                        src=".\src\assets\Book.png"
+                        alt="Book"
                         className="object-cover w-24 h-24 rounded-lg shadow-md md:w-32 md:h-32"
                     />
                 </div>
