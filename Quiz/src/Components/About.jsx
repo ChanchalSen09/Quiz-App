@@ -72,7 +72,7 @@ const About = () => {
                         Connect with me:
                     </p>
                     <div className="flex flex-wrap gap-6 mt-4 animate-slideInRight">
-                        <a href="https://www.linkedin.com/in/chanchalsen" target="_blank" rel="noopener noreferrer" className="text-blue-600 transition-transform transform hover:text-blue-800 hover:scale-110">
+                        <a href="https://www.linkedin.com/in/chanchal09/" target="_blank" rel="noopener noreferrer" className="text-blue-600 transition-transform transform hover:text-blue-800 hover:scale-110">
                             <FaLinkedin size={24} />
                         </a>
                         <a href="https://github.com/ChanchalSen09" target="_blank" rel="noopener noreferrer" className="text-gray-800 transition-transform transform hover:text-gray-900 hover:scale-110">
