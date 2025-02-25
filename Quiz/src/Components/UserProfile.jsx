@@ -50,7 +50,7 @@ const UserProfile = () => {
 
     return (
         <div className="flex flex-col items-center min-h-screen py-10 bg-gradient-to-r from-blue-200 to-purple-300">
-            <div className="w-full max-w-3xl p-8 transition-all duration-500 transform bg-white rounded-lg shadow-lg hover:scale-105">
+            <div className="w-full max-w-3xl p-8 transition-all duration-500 transform bg-white rounded-lg shadow-lg">
                 <div className="flex flex-col items-center">
                     <img
                         src="https://i.pinimg.com/564x/30/a9/52/30a9520164af6b6e312bdc135a10af3b.jpg"

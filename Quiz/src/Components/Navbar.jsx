@@ -24,7 +24,7 @@ const Navbar = () => {
                     className="relative px-4 py-2 text-lg font-extrabold text-white transition-transform transform rounded-full shadow-lg sm:text-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
                 >
                     <span className="absolute inset-0 w-full h-full rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 animate-glow opacity-60"></span>
-                    <span className="relative z-10 text-shadow-lg">Quiz App</span>
+                    <span className="relative z-10 text-shadow-lg">Quizify</span>
                 </button>
 
                 <div className="sm:hidden">
@@ -36,12 +36,12 @@ const Navbar = () => {
                 </div>
 
                 <div className={`sm:flex flex-col sm:flex-row sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4 sm:mt-0 w-full sm:w-auto ${isMenuOpen ? 'block' : 'hidden'} sm:block`}>
-                    <button
+                    {/* <button
                         onClick={() => navigate('/about')}
                         className="w-full px-4 py-2 font-bold text-white transition-transform rounded-full sm:w-auto bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
                     >
                         About
-                    </button>
+                    </button> */}
                     {isAuthenticated ? (
                         <>
                             <button

@@ -17,14 +17,14 @@ const Home = () => {
         <div className="flex flex-col min-h-screen bg-gray-100">
             <main className="flex flex-col items-center justify-center flex-grow p-4 md:p-6 lg:p-8">
                 <h1 className="mb-4 text-2xl font-extrabold text-center text-blue-600 md:text-4xl">
-                    Welcome to the Quiz App!
+                    Welcome to the Quizify!
                 </h1>
                 <p className="mb-4 text-base text-center text-gray-700 md:text-lg">
                     Test your knowledge and have fun!
                 </p>
                 <div className="max-w-3xl px-4 mb-8 md:px-0">
                     <p className="text-sm text-center text-gray-600 md:text-base">
-                        Our Quiz App provides a fun and interactive way to test your knowledge across a variety of topics.
+                        Our Quizify provides a fun and interactive way to test your knowledge across a variety of topics.
                         Challenge yourself with different levels of difficulty and track your progress over time.
                         Whether you're preparing for an exam or just want to learn something new, our quizzes are designed to keep you engaged and motivated.
                     </p>
@@ -87,7 +87,7 @@ const Home = () => {
                     </h2>
                     {showMessage && (
                         <p className="px-4 mb-8 text-sm font-medium text-gray-700 md:text-lg md:px-0">
-                            We’re crafting new features to bring a richer experience to your Quiz App.
+                            We’re crafting new features to bring a richer experience to your Quizify.
                             From multimedia interactions to exciting new ways to engage, the journey is just beginning.
                             Keep an eye out for surprises that will elevate your experience to the next level!
                         </p>
@@ -101,7 +101,7 @@ const Home = () => {
 
             <footer id="footer" className="py-4 text-center text-white bg-gray-800">
                 <p className="text-xs md:text-sm">Developed and Designed by Chanchal Sen</p>
-                <p className="mt-1 text-xs md:text-xs">&copy; 2024 Quiz App. All rights reserved.</p>
+                <p className="mt-1 text-xs md:text-xs">&copy; 2024 Quizify. All rights reserved.</p>
             </footer>
         </div>
     );
